@@ -1,0 +1,66 @@
+@charset "utf-8";
+*{
+    margin:0;
+}
+
+body{
+   margin:16px auto;
+}
+a{
+    display: block;
+   all:unset;
+   cursor: pointer;
+   
+}
+
+/* ヘッダー */
+header{
+    margin:32px;
+}
+
+/* section */
+
+.section{
+    width:70%;
+    margin:64px auto;
+    border:solid 2px black;
+    border-radius: 8px;
+    transition: all .3s;
+}
+.section a{
+    display: flex;
+}
+.section:hover{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4), 0 0 50px rgba(128, 128, 128, 0.1) ;
+    transform: translateY(-4px);
+
+}
+.section h2{
+    margin:32px;
+}
+.section img{
+    display: block;
+    width:80%;
+    margin:32px auto;
+    margin-top: 64px;
+}
+.section ul,
+.section p{
+    margin:32px;
+}
+
+.section-left,
+.section-right{
+    margin:32px;
+}
+
+.section-left{
+    width:50%;
+}
+.section-right{
+    width:50%;
+}
+#reference{
+  display: block;
+}
+
