@@ -60,7 +60,25 @@ header{
 .section-right{
     width:50%;
 }
-#reference{
-  display: block;
+.sites{
+    width:70%;
+  margin:64px auto;
+  border:solid 2px black;
+  border-radius: 8px;
+  transition: all .3s;
+}
+.reference{
+  display: flex;
+}
+#referenceSite{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.reference a{
+    margin-bottom: 16px;
+}
+.reference a:hover{
+    color:blue;
 }
 
