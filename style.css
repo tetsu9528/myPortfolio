@@ -23,6 +23,13 @@ header {
 
 /* section */
 
+#pickup,
+#other{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
 .section {
     width: 70%;
     margin: 64px auto;
